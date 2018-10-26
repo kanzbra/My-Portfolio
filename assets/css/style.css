@@ -1,0 +1,405 @@
+
+
+.pageOne {
+    background-image: url("../images/blank.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+
+.name{
+    font-family: 'Ruthie', cursive;
+    color: white;
+
+}
+
+#one{
+    padding-top: 60px;
+    padding-left:300px;
+    font-size:120px;
+
+}
+
+#two{
+    padding-left: 420px;
+    font-size: 200px;
+    margin-top: -130px;
+    color: white hsla(0, 0%, 0%, .9);
+    letter-spacing: 5px;
+    top: 50%;
+    animation: move linear 2000ms infinite;  
+  }
+  
+  @keyframes move {
+    0% {
+      text-shadow:
+        4px -4px 0 #9350dfb9, 
+        3px -3px 0 #9350dfb9, 
+        2px -2px 0 #9350dfb9, 
+        1px -1px 0 #9350dfb9,
+        -4px 4px 0 rgb(190, 145, 207), 
+        -3px 3px 0 rgb(190, 145, 207), 
+        -2px 2px 0 rgb(190, 145, 207), 
+        -1px 1px 0 rgb(190, 145, 207)
+      ;
+    }
+    25% {    
+      text-shadow:      
+        -4px -4px 0 rgb(190, 145, 207), 
+        -3px -3px 0 rgb(190, 145, 207), 
+        -2px -2px 0 rgb(190, 145, 207), 
+        -1px -1px 0 rgb(190, 145, 207),
+        4px 4px 0 #9350dfb9, 
+        3px 3px 0 #9350dfb9,
+        2px 2px 0 #9350dfb9,
+        1px 1px 0 #9350dfb9     
+      ;
+    }
+    50% {
+      text-shadow:
+        -4px 4px 0 #9350dfb9, 
+        -3px 3px 0 #9350dfb9, 
+        -2px 2px 0 #9350dfb9, 
+        -1px 1px 0 #9350dfb9,
+        4px -4px 0 rgb(190, 145, 207), 
+        3px -3px 0 rgb(190, 145, 207), 
+        2px -2px 0 rgb(190, 145, 207), 
+        1px -1px 0 rgb(190, 145, 207)
+      ;
+    }
+    75% {
+      text-shadow:
+        4px 4px 0 rgb(190, 145, 207), 
+        3px 3px 0 rgb(190, 145, 207), 
+        2px 2px 0 rgb(190, 145, 207), 
+        1px 1px 0 rgb(190, 145, 207),
+        -4px -4px 0 #9350dfb9, 
+        -3px -3px 0 #9350dfb9, 
+        -2px -2px 0 #9350dfb9, 
+        -1px -1px 0 #9350dfb9      
+      ;
+    }
+    100% {
+      text-shadow:
+        4px -4px 0 #9350dfb9, 
+        3px -3px 0 #9350dfb9,
+        2px -2px 0 #9350dfb9, 
+        1px -1px 0 #9350dfb9,
+        -4px 4px 0 rgb(190, 145, 207), 
+        -3px 3px 0 rgb(190, 145, 207), 
+        -2px 2px 0 rgb(190, 145, 207), 
+        -1px 1px 0 rgb(190, 145, 207)
+      ;
+    }  
+  }
+
+
+
+
+#three{
+    padding-left: 800px;
+    font-size: 120px;
+    margin-top: -180px;
+    text-decoration-line: underline;
+
+ 
+}
+
+
+
+.pageTwo{
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+
+min-height: 1000px;
+background-color:rgb(209, 150, 170);
+margin-top: 10px;
+overflow: hidden;
+margin-left:10px;
+margin-right:10px;
+}
+
+.flowers{
+    height: auto;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+#aboutMe{
+
+    margin-top: -800px;
+    margin-left: 700px;
+    color: rgba(255, 255, 255, 0.651);
+    font-family: 'Pacifico', cursive;
+}
+
+#four{
+    font-size: 80px;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.651);
+    letter-spacing: 5px;
+    top: 50%;
+
+      }
+      
+     
+
+#five{
+    margin-top: -20px;
+    padding-right: 40px;
+    font-family: 'Patua One', cursive;
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 30px;
+    text-align: justify;
+    line-break: loose;
+
+}
+
+.pageThree{
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  margin-top: 10px;
+  background-image: url('../images/wallpaperthree.png');
+  overflow: hidden;
+  margin-left:10px;
+  margin-right:10px;
+  }
+  .vineTwo{
+   position: relative;
+    width:700px;
+
+  }
+  .vineOne{
+    position: relative;
+    width:700px;
+  }
+
+  #form{
+    margin-top: -400px;
+  }
+
+  #projectOne{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/project1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  rgb(248, 238, 240);
+    position: relative;
+    margin-left: 50px;
+    margin-top: 70px;
+  }
+
+  #projectOne:hover .overlay {
+    opacity: 1;
+  }
+
+  #projectTwo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/project3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  rgb(248, 238, 240);
+    position: relative;
+    margin-left: 280px;
+    margin-top: -200px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+  
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(148, 118, 148);
+    border-radius:50%;
+  }
+  
+  #projectTwo:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Patua One', cursive;
+
+  }
+
+  #projectThree{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/project2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  rgb(248, 238, 240);
+    position: relative;
+    margin-left: 500px;
+    margin-top: -200px;
+  }
+  #projectThree:hover .overlay {
+    opacity: 1;
+  }
+
+  #projectFour{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/project4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  rgb(248, 238, 240);
+    position: relative;
+    margin-left: 730px;
+    margin-top: -200px;
+  }
+  #projectFour:hover .overlay {
+    opacity: 1;
+  }
+
+
+  #projectFive{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/project5.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  rgb(248, 238, 240);
+    position: relative;
+    margin-left: 950px;
+    margin-top: -200px;
+  }
+
+  #projectFive:hover .overlay {
+    opacity: 1;
+  }
+
+  
+  #projectSix{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/project6.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:  rgb(248, 238, 240);
+    position: relative;
+    margin-left: 1170px;
+    margin-top: -200px;
+  }
+  #projectSix:hover .overlay {
+    opacity: 1;
+  }
+
+
+  #bOne{ 
+    margin-top:115px;
+    margin-left: 78px;
+    width: 45px;
+    height: 40px;
+    border-radius:10px;
+    font-family: 'Patua One', cursive;
+    font-size:20px;
+
+  }
+  #bOneO {
+    margin-top:10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: 'Patua One', cursive;
+    font-size:15px;
+    background-color: rgb(192, 228, 206);
+   }
+ #bTwo {
+  margin-top:100px;
+  margin-left: 78px;
+  width: 55px;
+  height: 50px;
+  border-radius:10px;
+  font-family: 'Patua One', cursive;
+  font-size:20px;
+
+ }
+
+ #bTwoO {
+  margin-top:10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-family: 'Patua One', cursive;
+  font-size:15px;
+  background-color: rgb(192, 228, 206);
+ }
+
+ #bFour {
+  margin-top:105px;
+  margin-left: 78px;
+  width: 50px;
+  height: 50px;
+  border-radius:10px;
+  font-family: 'Patua One', cursive;
+  font-size:20px;
+ }
+
+ #bFourO {
+  margin-top:10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-family: 'Patua One', cursive;
+  font-size:12px;
+  background-color: rgb(192, 228, 206);
+ }
+ #bSix{
+  margin-top:100px;
+  margin-left: 78px;
+  width: 50px;
+  height: 50px;
+  border-radius:10px;
+  font-family: 'Patua One', cursive;
+  font-size:20px;
+ }
+
+ #bSixO {
+  margin-top:10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-family: 'Patua One', cursive;
+  font-size:px;
+  background-color: rgb(192, 228, 206);
+ }
