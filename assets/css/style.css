@@ -1,35 +1,65 @@
+body {padding:0; margin:0; background-color:white; }
 
+#home{
+  background:url("https://media.giphy.com/media/RrMZND4cez4xG/giphy.gif");
 
-.pageOne {
-    background-image: url("../images/blank.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    margin-top: 10px;
-    overflow: hidden;
+     height: 700px;
+
+    width:100%;
+    min-width: 100%;
+    padding-right:20px;
+    padding-left:20px;
     margin-left:10px;
     margin-right:10px;
-    
 }
 
-.name{
+
+.panel{
+  margin-top:40px;
+  width:100%;
+  height:400px;;
+
+}
+
+#panel{
+  margin-top:80px;
+  width:700px;
+  height:500px;;
+  margin-left:375px;
+  border-style: solid;
+  border-width: 20px;
+  border-color: azure;
+  border-radius: 50%;
+  background-color:rgb(238, 230, 232);
+  font-family:'Pacifico';
+  
+
+
+}
+
+#welcome{
+  font-size: 80px;
+  text-align: center;
+  padding-top:80px;
+  color:azure;
+}
+
+.landing-text{
     font-family: 'Ruthie', cursive;
     color: white;
 
 }
 
 #one{
-    padding-top: 60px;
-    padding-left:300px;
+    padding-top: 100px;
     font-size:120px;
 
 }
 
 #two{
-    padding-left: 420px;
+    margin-left:400px;
     font-size: 200px;
-    margin-top: -130px;
+    margin-top: 0px;
     color: white hsla(0, 0%, 0%, .9);
     letter-spacing: 5px;
     top: 50%;
@@ -105,88 +135,215 @@
 #three{
     padding-left: 800px;
     font-size: 120px;
-    margin-top: -180px;
+    margin-top: 40px;
     text-decoration-line: underline;
 
  
 }
 
 
-
-.pageTwo{
-
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;
-
-min-height: 1000px;
-background-color:rgb(209, 150, 170);
-margin-top: 10px;
-overflow: hidden;
-margin-left:10px;
-margin-right:10px;
+.padding{
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
-.flowers{
+.responsive{
+
+    margin-top:20px;
+    max-width: 100%;
+    min-width: 100px;
     height: auto;
-    margin-top: 70px;
-    margin-left: 30px;
+
+    
 }
 
-#aboutMe{
+#about {
 
-    margin-top: -800px;
-    margin-left: 700px;
-    color: rgba(255, 255, 255, 0.651);
-    font-family: 'Pacifico', cursive;
+    margin-top: 100px;
+    font-family:'Pacifico';
+   
+  
 }
 
-#four{
-    font-size: 80px;
-    text-decoration-line: underline;
-    color: rgba(255, 255, 255, 0.651);
-    letter-spacing: 5px;
-    top: 50%;
-
-      }
-      
-     
-
-#five{
-    margin-top: -20px;
-    padding-right: 40px;
+#aboutme{
+  text-decoration:underline;
+}
+p{
     font-family: 'Patua One', cursive;
-    color: rgba(255, 255, 255, 0.651);
-    font-size: 30px;
-    text-align: justify;
-    line-break: loose;
+    
+
 
 }
 
-.pageThree{
+#pageTwo{
+  background-color:rgb(226, 207, 213); 
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+  padding-top:30px;
+
+
+}
+#pageThree{
 
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 700px;
+  min-height: 900px;
   margin-top: 10px;
   background-image: url('../images/wallpaperthree.png');
   overflow: hidden;
   margin-left:10px;
   margin-right:10px;
   }
-  .vineTwo{
-   position: relative;
-    width:700px;
-
-  }
-  .vineOne{
-    position: relative;
-    width:700px;
+  
+  .column{
+    width:50%;
+    float: left;
+  
   }
 
-  #form{
-    margin-top: -400px;
+
+ 
+  @media only screen and (min-width: 300px) {
+
+#form{
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+#pageTwo{
+  
+  width:100%;
+  overflow: hidden;
+  
+  
+}
+#pageThree{
+  height:1700px;
+  width:100%;
+  overflow: hidden;
+  
+  
+}
+
+#projectTwo{
+  margin-top:100px;
+}
+#panel{
+  margin-top:130px;
+  width:250px;
+  height:250px;;
+  margin-left:40px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: azure;
+  border-radius: 50%;
+  background-color:rgb(238, 230, 232);
+  font-family:'Pacifico';
+}
+  #welcome{
+    font-size: 35px;
+    text-align: center;
+    padding-top:40px;
+    color:azure;
+  }
+  
+#home{
+  background:url("https://media.giphy.com/media/RrMZND4cez4xG/giphy.gif");
+
+     height: 500px;
+
+    width:auto;
+    min-width: 100%;
+
+    overflow: hidden;
+}
+#about {
+
+  margin-top: 30px;
+  font-family:'Pacifico';
+ 
+
+}
+  
+
+  }
+
+  @media (min-width: 480px) {
+    #form{
+       margin-top: -20px;
+    }
+}
+
+@media (min-width:801px)  { 
+
+    #form{
+       margin-top: -250px;
+    }
+    #pageThree{
+      height:900px;
+    }
+
+    #home{
+      background:url("https://media.giphy.com/media/RrMZND4cez4xG/giphy.gif");
+    
+         height: 700px;
+    
+        width:100%;
+        min-width: 100%;
+        padding-right:20px;
+        padding-left:20px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    
+    
+    .panel{
+      margin-top:40px;
+      width:100%;
+      height:400px;;
+    
+    }
+    
+    #panel{
+      margin-top:80px;
+      width:700px;
+      height:500px;;
+      margin-left:375px;
+      border-style: solid;
+      border-width: 20px;
+      border-color: azure;
+      border-radius: 50%;
+      background-color:rgb(238, 230, 232);
+      font-family:'Pacifico';
+      
+    
+    
+    }
+    
+    #welcome{
+      font-size: 80px;
+      text-align: center;
+      padding-top:80px;
+      color:azure;
+    }
+}
+
+
+
+ 
+
+
+
+  #vine{
+    margin-bottom:0px;
+    padding-bottom:0px;
+  }
+
+  .vinetwo{
+    margin-left:40px;
   }
 
   #projectOne{
@@ -198,9 +355,10 @@ margin-right:10px;
     background-repeat: no-repeat;
     background-position: center;
     background-color:  rgb(248, 238, 240);
-    position: relative;
-    margin-left: 50px;
-    margin-top: 70px;
+   
+    margin-left: 10px;
+    margin-top: 20px;
+
   }
 
   #projectOne:hover .overlay {
@@ -216,9 +374,11 @@ margin-right:10px;
     background-repeat: no-repeat;
     background-position: center;
     background-color:  rgb(248, 238, 240);
-    position: relative;
-    margin-left: 280px;
-    margin-top: -200px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+
+
   }
 
   .overlay {
@@ -262,9 +422,8 @@ margin-right:10px;
     background-repeat: no-repeat;
     background-position: center;
     background-color:  rgb(248, 238, 240);
-    position: relative;
-    margin-left: 500px;
-    margin-top: -200px;
+    margin-left: 20px;
+    margin-top: 20px;
   }
   #projectThree:hover .overlay {
     opacity: 1;
@@ -279,9 +438,10 @@ margin-right:10px;
     background-repeat: no-repeat;
     background-position: center;
     background-color:  rgb(248, 238, 240);
-    position: relative;
-    margin-left: 730px;
-    margin-top: -200px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+
   }
   #projectFour:hover .overlay {
     opacity: 1;
@@ -297,9 +457,10 @@ margin-right:10px;
     background-repeat: no-repeat;
     background-position: center;
     background-color:  rgb(248, 238, 240);
-    position: relative;
-    margin-left: 950px;
-    margin-top: -200px;
+
+    margin-left: 20px;
+    margin-top: 20px;
+
   }
 
   #projectFive:hover .overlay {
@@ -316,9 +477,9 @@ margin-right:10px;
     background-repeat: no-repeat;
     background-position: center;
     background-color:  rgb(248, 238, 240);
-    position: relative;
-    margin-left: 1170px;
-    margin-top: -200px;
+    margin-top: 20px;
+    margin-left: 20px;
+
   }
   #projectSix:hover .overlay {
     opacity: 1;
@@ -327,7 +488,7 @@ margin-right:10px;
 
   #bOne{ 
     margin-top:115px;
-    margin-left: 78px;
+    margin-left: 65px;
     width: 45px;
     height: 40px;
     border-radius:10px;
@@ -346,7 +507,7 @@ margin-right:10px;
    }
  #bTwo {
   margin-top:100px;
-  margin-left: 78px;
+  margin-left: 60px;
   width: 55px;
   height: 50px;
   border-radius:10px;
@@ -367,7 +528,7 @@ margin-right:10px;
 
  #bFour {
   margin-top:105px;
-  margin-left: 78px;
+  margin-left: 65px;
   width: 50px;
   height: 50px;
   border-radius:10px;
@@ -386,12 +547,12 @@ margin-right:10px;
  }
  #bSix{
   margin-top:100px;
-  margin-left: 78px;
+  margin-left: 65px;
   width: 50px;
   height: 50px;
   border-radius:10px;
   font-family: 'Patua One', cursive;
-  font-size:20px;
+  font-size:25px;
  }
 
  #bSixO {
@@ -400,6 +561,6 @@ margin-right:10px;
   height: 70px;
   border-radius: 50%;
   font-family: 'Patua One', cursive;
-  font-size:px;
+  font-size:15px;
   background-color: rgb(192, 228, 206);
  }

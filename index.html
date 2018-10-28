@@ -4,114 +4,142 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Ruthie|Patua+One|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
+    <div class= "column"  id="home">
+        <div class = "landing-text">
+                <div class = "col-sm-12 col-xs-12" id="panel">
+                        <h1 id="welcome"> Welcome to <br> <b>Kanzbra's</b> <br> Garden</h1>
+                </div>
+        </div>
+    </div>
+  
 
-    <div class="pageOne">
-        <div class="name">
-            <h2 id="one"> Welcome to</h2>
-            <h1 id="two"> Kanzbra's</h1>
-            <h2 id="three"> Portfolio</h2>
+
+
+    <div class= "padding" id=pageTwo>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm-6">
+                        <img class="responsive" src="./assets/images/wallpaper_two.png">
+                </div>
+                <div class = "col-sm-6 text-center" id="about"  data-aos="fade-left" data-aos-delay="250" ata-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                        <h1 id="aboutme"> About Me</h1>
+                        <p class="lead"> Hello there! First off, I would like to thank you for visiting my portfolio. I call it the garden, becuase my projects will only grow and become better with time just like flowers! My name is
+                            <b>Kanzbra Rashid</b>, which is derived from arabic text and defined as "treasure or prosperity"which I hope to aquire
+                            one day like the rest of us! I am currently working towards a Masters in Computer Science at Brooklyn College
+                            while attending Columbia's Fu Foundation School of Engineering's Full Stack Boot Camp. Below are links to
+                            projects I've completed. Some projects are deployed where as others are git hub repositories.
+                            <br>
+                            <br> Simply Pick a flower from the Garden to view a project. Enjoy!
+                        <p>
+                </div>
+
+            </div>
         </div>
     </div>
 
-    <div class="pageTwo">
-        <div>
-            <img class="flowers" src="./assets/images/wallpaper_two.png">
+    <div class= "padding" id=pageThree>
+        <div class="container" id="vine">
+            <div class=row>
+                    <div class= "column">
+                    <img class="vineOne" src="./assets/images/vinetwo.png" style="width:100%">
+                        </div>
+                        <div class= "column">
+                            <img class="vineTwo" src="./assets/images/vinetwo.png"style="width:100%">
+                        </div>
+            </div>
         </div>
-        <div id="aboutMe" data-aos="fade-left" data-aos-delay="250" ata-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
-            <h1 id="four"> About Me</h1>
-            <h2 id="five"> Hello there! First off, I would like to thank you for visiting my portfolio. My name is
-                <b>Kanzbra</b>, which is derived from arabic text and defined as "treasure or prosperity"which I hope to aquire
-                one day like the rest of us! I am currently working towards a Masters in Computer Science at Brooklyn College
-                while attending Columbia's Fu Foundation School of Engineering's Full Stack Boot Camp. Below are links to
-                projects I've completed. Some projects are deployed where as others are git hub repositories.
-                <br>
-                <br> Simply Pick a flower from the Garden to view a project. Enjoy!
-            </h2>
+
+        <div class = "container" data-aos="flip-left" data-aos-delay="300" >
+           
+            <div class = "row"id="form">
+                <div class = "col-lg-2 col-md-2 col-sm-6 col-xs-12" id="projectOne">
+                        <button id=bOne>1</button>
+                        <div class="overlay">
+                            <div class="text">Psychic Game
+                                <button id=bOneO>
+                                    <a href="ttps://kanzbra.github.io/Psychic-Game/">Do You Wanna Play?</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                <div class = "col-lg-2 col-md-2 col-sm-6 col-xs-12" id="projectTwo">
+                        <button id=bTwo>2</button>
+                        <div class="overlay">
+                            <div class="text">Harry Potter Battle
+                                <br>
+                                <button id=bTwoO>
+                                    <a href="https://github.com/kanzbra/unit-4-game">Let's Battle!</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-lg-2 col-md-2 col-sm-6 col-xs-12" id="projectThree">
+                            <button id=bTwo>3</button>
+                            <div class="overlay">
+                                <div class="text">Princess
+                                    <br> Trivia
+                                    <button id=bTwoO>
+                                        <a href="https://kanzbra.github.io/TriviaGame/"> Do you know them?</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "col-lg-2 col-md-2 col-sm-6 col-xs-12" id="projectFour">
+                                <button id=bFour>4</button>
+                                <div class="overlay">
+                                    <div class="text">Train-Time
+                                        <br> App
+                                        <button id=bFourO>
+                                            <a href="https://kanzbra.github.io/Train-Time/">Take Me to the Train</a>
+                                        </button>
+                                    </div>
+                
+                                </div>
+                            </div>
+
+                            <div class = "col-lg-2 col-md-2 col-sm-6 col-xs-12" id="projectFive">
+                                    <button id=bTwo>5</button>
+                                    <div class="overlay">
+                                        <div class="text">Friend Finder
+                                            <br> App
+                                            <button id=bTwoO>
+                                                <a href="https://limitless-basin-67487.herokuapp.com/">Make New Friends</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class = "col-lg-2 col-md-2 col-sm-6 col-xs-12" id="projectSix">
+                                    <button id=bSix>6</button>
+                                    <div class="overlay">
+                                        <div class="text">Eat-Da-Burger!
+                                            <button id=bSixO>
+                                                <a href="https://drive.google.com/file/d/19RtaOSjf87-DDRmYtOThynxExwumXieY/view">Hungry?</a>
+                                            </button>
+                                        </div>
+
+
+
         </div>
     </div>
+</div>
+</div>
 
-    <div class="pageThree">
-        <img class="vineOne" src="./assets/images/vinetwo.png">
-        <img class="vineTwo" src="./assets/images/vinetwo.png">
-        <div id="form" data-aos="flip-left" data-aos-delay="300">
-            <div id="projectOne">
-                <button id=bOne>1</button>
-                <div class="overlay">
-                    <div class="text">Psychic Game
-                        <button id=bOneO>
-                            <a href="https://github.com/kanzbra/Psychic-Game.git">Do You Wanna Play?</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div id="projectTwo">
-                <button id=bTwo>2</button>
-                <div class="overlay">
-                    <div class="text">Harry Potter Battle
-                        <br>
-                        <button id=bTwoO>
-                            <a href="https://github.com/kanzbra/unit-4-game">Let's Battle!</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div id="projectThree">
-                <button id=bTwo>3</button>
-                <div class="overlay">
-                    <div class="text">Princess
-                        <br> Trivia
-                        <button id=bTwoO>
-                            <a href="https://kanzbra.github.io/TriviaGame/"> Do you know them?</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div id="projectFour">
-                <button id=bFour>4</button>
-                <div class="overlay">
-                    <div class="text">Train-Time
-                        <br> App
-                        <button id=bFourO>
-                            <a href="https://kanzbra.github.io/Train-Time/">Take Me to the Train</a>
-                        </button>
-                    </div>
-
-                </div>
-            </div>
-            <div id="projectFive">
-                <button id=bTwo>5</button>
-                <div class="overlay">
-                    <div class="text">Friend Finder
-                        <br> App
-                        <button id=bTwoO>
-                            <a href="https://limitless-basin-67487.herokuapp.com/">Make New Friends</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div id="projectSix">
-                <button id=bSix>6</button>
-                <div class="overlay">
-                    <div class="text">Eat-Da-Burger!
-                        <button id=bSixO>
-                            <a href="https://drive.google.com/file/d/19RtaOSjf87-DDRmYtOThynxExwumXieY/view">Hungry?</a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
         </script>
+
 
 </body>
 </html>
