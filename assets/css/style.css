@@ -139,6 +139,10 @@ p{
   font-family:'Pacifico';
 }
 
+#form{
+  margin-left:-20px;
+}
+
 #projectOne{
   border-radius: 50%;
   width: 110px;
@@ -225,7 +229,7 @@ p{
   background-repeat: no-repeat;
   background-position: center;
   background-color:  rgb(248, 238, 240);
-  margin-left: 20px;
+  margin-left: 10px;
   margin-top: 20px;
 }
 
